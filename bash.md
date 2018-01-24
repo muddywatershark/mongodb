@@ -38,6 +38,21 @@ when you run `mongo` from path of `/home/youruser/db/` you can referr to the fil
  * `~/db/backups/mydatabase.json` (absolute but using a shorthand of `$HOME`)
  * `./backups/mydatabase.json` (from a context path where you run your mongo)
 
+#### Capturing keyboard input into file and outputing files contents
+
+```bash
+$ cat > newfile.txt # creates file if does not exist
+hello 
+[Ctrl+D]
+$ cat newfile.txt 
+hello
+$ cat >> newfile.txt # appends line(s) to a file
+world
+[Ctrl+D]
+$ cat newfile.txt 
+hello
+world
+```
 
 #### Using Martin's code to display JSON files as `pretty`
 
