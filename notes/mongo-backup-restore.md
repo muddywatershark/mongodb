@@ -66,3 +66,13 @@ or count all imported records:
 > db.products.find().count();
 11
 ```
+
+### Backup to `JSON` file
+
+```bash
+mongoexport --db pcat --collection products --out ./products-backup.json
+```
+
+That creates you file [products-backup.json](../assets/products-backup.json).
+
+
