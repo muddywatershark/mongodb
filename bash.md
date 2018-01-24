@@ -86,6 +86,14 @@ gives you:
 }
 ```
 
+#### Finding files 
+
+In my home directory using wildcards (*).
+
+```bash
+find ~/ -name \*product\*.json
+```
+
 #### Using Martin's code to display JSON files as `pretty`
 
 Please see [tech docs](tech-docs.md)
