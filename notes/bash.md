@@ -3,6 +3,12 @@ bash basics
 
 ## Foundations
 
+#### Copy/Paste in bash (command-line)
+
+`[Ctrl+C]` > `Ctrl+Insert`
+
+`[Ctrl+V]` > `Shift+Insert`
+
 #### Operations on directories and paths
 
 To get to your home directory you do:
