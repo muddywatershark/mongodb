@@ -60,7 +60,7 @@ make it `pretty`:
 }
 ```
 
-or count all imported records ``:
+or count all imported records:
 
 ```bash
 > db.products.find().count();
