@@ -5,6 +5,6 @@
 #### 
 
  * [bash](notes/bash.md)
- * [tech docs](notes/tech-docs.md)
+ * [Development environment (tech docs)](notes/tech-docs.md)
  * [SSH keys for github](notes/ssh.md)
  
