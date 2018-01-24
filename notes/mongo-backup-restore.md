@@ -39,6 +39,27 @@ now continue with a simple query:
 > db.products.find({name: "Phone Extended Warranty"});
 { "_id" : ObjectId("507d95d5719dbef170f15bfb"), "name" : "Phone Extended Warranty", "type" : "warranty", "price" : 38, "warranty_years" : 2, "for" : [ "ac3", "ac7", "ac9", "qp7", "qp8", "qp9" ] }
 ```
+make it `pretty`:
+
+```bash
+> db.products.find({name: "Phone Extended Warranty"}).pretty();
+{
+	"_id" : ObjectId("507d95d5719dbef170f15bfb"),
+	"name" : "Phone Extended Warranty",
+	"type" : "warranty",
+	"price" : 38,
+	"warranty_years" : 2,
+	"for" : [
+		"ac3",
+		"ac7",
+		"ac9",
+		"qp7",
+		"qp8",
+		"qp9"
+	]
+}
+```
+
 or count all imported records ``:
 
 ```bash
