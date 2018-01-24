@@ -53,6 +53,38 @@ $ cat newfile.txt
 hello
 world
 ```
+### Looking up JSON "pretty"
+
+For a given piece of `minified` JSON [for a web minifier see here](http://www.webtoolkitonline.com/json-minifier.html) that is also a `valid` JSON - [jsonlint](https://jsonlint.com/).
+
+```json
+{"as":"AS16509 Amazon.com, Inc.","city":"Boardman","country":"United States","countryCode":"US","isp":"Amazon","lat":45.8696,"lon":-119.688,"org":"Amazon","query":"54.148.84.95","region":"OR","regionName":"Oregon","status":"success","timezone":"America/Los_Angeles","zip":"97818"}
+```
+
+```bash
+json-pretty filename.json
+```
+
+gives you:
+
+```json
+{
+    "as": "AS16509 Amazon.com, Inc.",
+    "city": "Boardman",
+    "country": "United States",
+    "countryCode": "US",
+    "isp": "Amazon",
+    "lat": 45.8696,
+    "lon": -119.688,
+    "org": "Amazon",
+    "query": "54.148.84.95",
+    "region": "OR",
+    "regionName": "Oregon",
+    "status": "success",
+    "timezone": "America/Los_Angeles",
+    "zip": "97818"
+}
+```
 
 #### Using Martin's code to display JSON files as `pretty`
 
