@@ -25,6 +25,7 @@ To install `json-pretty` please use following script:
 ```bash
 wget https://raw.githubusercontent.com/hirefirst/tool-shed/master/bash/json-pretty-install.sh
 chmod +x ./json-pretty-install.sh
+./json-pretty-install.sh
 ```
 to use it (system-wide):
 
