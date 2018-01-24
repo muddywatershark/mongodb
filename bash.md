@@ -93,6 +93,16 @@ In my home directory using wildcards (*).
 ```bash
 find ~/ -name \*product\*.json
 ```
+#### Using grep command to limit output
+
+```bash
+$ mongod --help | grep "dbpath"
+  --dbpath arg                          directory for datafiles - defaults to 
+                                        defaults to dbpath
+                                        statistics file in the dbpath; 0 means 
+                                        statistics file in the dbpath; 0 means
+```
+
 
 #### Using Martin's code to display JSON files as `pretty`
 
