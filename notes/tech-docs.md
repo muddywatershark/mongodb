@@ -54,6 +54,14 @@ now add some tools before you stup `devenv`
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 ```
 
+###### `virtualenv`
+
+```bash
+sudo apt-get install python-virtualenv
+cd ~/Desktop/djangogirls/
+python3 -m venv myvenv # or 
+sudo pip3 install virtualenv
+```
 
 
 ##### NodeJS v9.3.0
