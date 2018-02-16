@@ -54,14 +54,30 @@ now add some tools before you stup `devenv`
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 ```
 
+
 ###### `virtualenv`
 
 ```bash
 sudo apt-get install python-virtualenv
+python3 -m venv myvenv       # or 
+sudo pip3 install virtualenv # or
+sudo apt-get install python3-virtualenv
 cd ~/Desktop/djangogirls/
-python3 -m venv myvenv # or 
-sudo pip3 install virtualenv
+python3 -m venv myvenv
+. myvenv/bin/activate
 ```
+
+###### Django
+
+update `pip`
+
+```bash
+pip install --upgrade pip
+pip install django~=1.11.0
+```
+
+
+[See more here...](https://tutorial.djangogirls.org/en/installation/)
 
 
 ##### NodeJS v9.3.0
