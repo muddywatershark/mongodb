@@ -43,6 +43,16 @@ sudo apt-get update
 sudo apt-get install python3.6
 sudo apt-get install -y python3-pip
 ```
+now validate by going...
+
+```bash
+sudo pip3 install numpy
+```
+now add some tools before you stup `devenv`
+
+```bash
+sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+```
 
 
 
