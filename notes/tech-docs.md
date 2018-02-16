@@ -33,6 +33,18 @@ to use it (system-wide):
 json-pretty [your-filename]
 ```
 
+##### Python 3.6*
+
+Run this first...
+
+```bash
+sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo apt-get update
+sudo apt-get install python3.6
+```
+
+
+
 ##### NodeJS v9.3.0
 
 In order to install `node` and `nodejs` aliases please use following script:
